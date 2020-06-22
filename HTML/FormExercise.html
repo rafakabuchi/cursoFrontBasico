@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+<h1>Register</h1>
+
+<form>
+<!-- Name -->
+	<label for="first">First Name:</label>
+	<input name="first" id="first" placeholder="John" type="text" required>
+
+	<label for="last">Last Name:</label>
+	<input name="last" id="last" placeholder="Smith" type="text" required>
+<div>
+<!-- Gender -->
+	<label for="Female">Female</label>
+		<input id="Female" type="radio" name="Gender" value="Female">
+	<label for="Male">Male</label>
+		<input id="Male" type="radio" name="Gender" value="Male">
+	<label for="Other":>Other</label>
+		<input id="Other" type="radio" name="Gender" value="Other">
+</div>
+	<label for="username">Email:</label>
+		<input id="username" type="email" placeholder="your e-mail" required>
+
+	<label for="password"> Password:</label>
+		<input id="password" type="password" placeholder="your password" required>
+<p></p>
+<label>
+		Birthday:
+	<select name="Month">
+		<option>January</option>
+		<option>Febreary</option>
+		<option>March</option>
+		<option>April</option>
+		<option>May</option>
+		<option>Juno</option>
+	</select>
+	<select name="Day">
+		<option>01-10</option>
+		<option>11-20</option>
+		<option>21-30</option>
+		<option>31</option>
+	</select>
+	<select name="Year">
+		<option>1900-1950</option>
+		<option>1951-1970</option>
+		<option>1971-1990</option>
+		<option>1999-today</option>
+	</select>
+	</label>
+<p></p>
+	I agree to the terms and conditions
+	<input type="checkbox" name="">
+<p></p>
+<button>Submit</button>
+
+</form>
+</body>
+</html>

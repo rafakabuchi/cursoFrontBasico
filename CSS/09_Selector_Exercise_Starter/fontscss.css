@@ -1,0 +1,49 @@
+/*font-fmmily*/
+p {
+	font-family: roboto;
+}
+
+h1 {
+	font-family: coiny;
+}
+
+/*font-size*/
+p {
+	font-size: 18px;
+}
+
+h1 { 
+font-size: 50px;
+}
+span {
+	font-size: 2.0em;
+} /*aqui vc dobra, triplica, etc... conforme o tamanho do texto em que esta dentro*, use em/
+
+/*font-weight*/
+p {
+	font-weight: regular;
+}
+h1 { 
+font-weight: regular 400;
+ }
+
+/*line-height*/
+p {
+	line-height: 2;
+}
+
+/*text-align*/
+p {
+	text-align: justify;
+}
+h1 {
+	text-align: right;
+}
+
+/*text-decoration*/
+p{
+	text-decoration: underline;
+}
+h1 {
+	text-decoration: line-through;
+}

@@ -1,0 +1,20 @@
+body {
+	background: orange;
+}
+li {
+	border: 2px solid red;
+.cores {
+	background: green;
+}
+.completed {
+	text-decoration: line-through;
+}
+
+}
+div {
+	background: purple;
+	
+	.special {
+		background: white;
+	}
+}

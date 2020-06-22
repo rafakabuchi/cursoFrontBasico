@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+	<h1>Sign in</h1>
+<form action="/sign-in-ulr" method="post" >
+	<input type="text" name="texto">
+	<input type="password" name="senha">
+	<button>Login</button>
+
+	<p>
+		<!-- Próximo Exercício -->
+	<h1>Exercise 2 / Login</h1>
+	<form>
+	<input type="text" name="text" placeholder="e-mail">
+	<input type="color" name="color">
+	<input type="radio" name="radio">
+	<input type="password" name="password" placeholder="password">
+	<input type="Submit">
+	</form>
+	<p>
+		<!-- Próximo Exercício 
+			Action - where the form send data to
+			method - what HTTP method (get/post)--></p>
+	<h1>Action / method</h1>		
+<form action="http://google.com" method="GET">
+	<input type="text" name="username" placeholder="username">
+	<input type="password" name="password" placeholder="password">
+	<input type="Submit">
+	</form>
+<p>
+	
+</p>
+<h1>Labels</h1>
+<!-- Próximo Exercício 
+			Labels -->		
+<form action="http://google.com" method="GET">
+	<label>
+		Username:
+		<input type="text" name="username" placeholder="username">
+</label>
+	<label>
+		Password:
+		<input type="password" name="password" placeholder="password">
+	</label>
+
+	<input type="Submit">
+	</form>
+<p>
+	
+</p>
+
+<h1>Alternative Syntax</h1>
+<!-- Sintax -->		
+<form action="http://google.com" method="GET">
+
+	<label for="username" Username:</label>
+		<input id="username" type="text" placeholder="username">
+	<label for="password"> Password:</label>
+		<input id="password" type="password" placeholder="password">
+
+	<input type="Submit">
+	</form>
+<p></p>
+
+<h1>Simple Validations</h1>
+<!-- Validação -->		
+<form action="http://google.com">
+
+	<label for="username">Email:</label>
+		<input id="username" type="email" placeholder="e-mail" required>
+
+	<label for="password"> Password:</label>
+		<input id="password" type="password" placeholder="password" required>
+	<button>Login</button>
+	</form>
+
+
+</form>
+</body>
+</html>
